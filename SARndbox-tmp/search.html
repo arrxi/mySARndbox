@@ -1,0 +1,486 @@
+
+<!-- saved from url=(0128)http://webcache.googleusercontent.com/search?q=cache:http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><!--<base href="http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html">--><base href="."><style>body{margin-left:0;margin-right:0;margin-top:0}#bN015htcoyT__google-cache-hdr{background:#f5f5f5;font:13px arial,sans-serif;text-align:left;color:#202020;border:0;margin:0;border-bottom:1px solid #cecece;line-height:16px;padding:16px 28px 24px 28px}#bN015htcoyT__google-cache-hdr *{display:inline;font:inherit;text-align:inherit;color:inherit;line-height:inherit;background:none;border:0;margin:0;padding:0;letter-spacing:0}#bN015htcoyT__google-cache-hdr a{text-decoration:none;color:#1a0dab}#bN015htcoyT__google-cache-hdr a:hover{text-decoration:underline}#bN015htcoyT__google-cache-hdr a:visited{color:#609}#bN015htcoyT__google-cache-hdr div{display:block;margin-top:4px}#bN015htcoyT__google-cache-hdr b{font-weight:bold;display:inline-block;direction:ltr}</style></head><body bgcolor="#FFFFFF"><div id="bN015htcoyT__google-cache-hdr"><div><span>这是 Google 对 <a href="http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html">http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html</a> 的缓存。</span>&nbsp;<span>这是该网页在 2019年11月9日 20:22:30 GMT 的快照。</span>&nbsp;<span><a href="http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html">当前页</a>在此期间可能已经更改。</span>&nbsp;<a href="http://support.google.com/websearch/bin/answer.py?hl=zh-CN&amp;p=cached&amp;answer=1687222"><span>了解详情</span>.</a></div><div><span style="display:inline-block;margin-top:8px;margin-right:104px;white-space:nowrap"><span style="margin-right:28px"><span style="font-weight:bold">完整版本</span></span><span style="margin-right:28px"><a href="http://webcache.googleusercontent.com/search?q=cache:http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html&amp;strip=1&amp;vwsrc=0"><span>纯文字版本</span></a></span><span style="margin-right:28px"><a href="http://webcache.googleusercontent.com/search?q=cache:http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html&amp;strip=0&amp;vwsrc=1"><span>查看源代码</span></a></span></span></div><span style="display:inline-block;margin-top:8px;color:#717171"><span>提示：要在此页面上快速找到您的搜索字词，请按 <b>Ctrl+F</b> 或者 <b>⌘-F</b>（Mac），然后使用查找栏搜索。</span></span></div><div style="position:relative;">
+
+<title></title>
+<link rel="MADE" href="mailto:kreylos@cs.ucdavis.edu">
+<style>
+PRE {background-color: #EEEEEE; border: 1px solid #CCCCCC; padding: 6px;}
+</style>
+
+
+
+<h1>Software Installation</h1>
+
+<p>This page holds complete, step-by-step installation and set-up instructions for the AR&nbsp;Sandbox software, starting from a blank desktop PC with an <a href="https://en.wikipedia.org/wiki/GeForce" target="_blank">Nvidia GeForce</a> graphics processing unit (GPU). These instructions are based on the current version of the <a href="https://en.wikipedia.org/wiki/Linux_Mint" target="_blank">Linux Mint</a> operating system. Due to increasing weirdness in recent versions of Mac OS&nbsp;X (starting with version 10.7), we can no longer recommend Mac computers and Mac OS&nbsp;X to drive AR&nbsp;Sandbox installations.</p>
+
+<p>These instructions are up-to-date with the following software versions:
+</p><ul>
+<li>Linux Mint 19.1 ("Tessa") with MATE desktop environment, 64-bit version</li>
+<li>Version 4.6-005 of the Vrui VR Development Toolkit (automatically selected by Vrui installation script)</li>
+<li>Version 3.7 of the Kinect 3D Video Package</li>
+<li>Version 2.6 of the Augmented Reality Sandbox</li>
+</ul><p></p>
+
+<h3>Table of Contents</h3>
+
+<ul>
+<li><a href="http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html#SoftwareInstallation" style="text-decoration:none;">Software Installation</a></li>
+	<ul>
+	<li><a href="http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html#Step1" style="text-decoration:none;">Step 1: Install Linux</a></li>
+	<li><a href="http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html#Step2" style="text-decoration:none;">Step 2: Install Nvidia Driver</a></li>
+	<li><a href="http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html#Step3" style="text-decoration:none;">Step 3: Install the Vrui VR Development Toolkit</a></li>
+	<li><a href="http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html#Step3a" style="text-decoration:none;">Step 3a: Adjusting the Screen Size</a></li>
+	<li><a href="http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html#Step4" style="text-decoration:none;">Step 4: Install the Kinect 3D Video Package</a></li>
+	<li><a href="http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html#Step5" style="text-decoration:none;">Step 5: Install the Augmented Reality Sandbox</a></li>
+	</ul>
+<li><a href="http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html#Configuration" style="text-decoration:none;">System Integration, Configuration, and Calibration</a></li>
+	<ul>
+	<li><a href="http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html#Step6" style="text-decoration:none;">Step 6: Connect and Configure the 3D Camera</a></li>
+	<li><a href="http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html#Step6a" style="text-decoration:none;">Step 6a (Optional): Calculate Per-pixel Depth Correction</a></li>
+	<li><a href="http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html#Step7" style="text-decoration:none;">Step 7: Align the 3D Camera</a></li>
+	<li><a href="http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html#Step8" style="text-decoration:none;">Step 8: Measure Sandbox's Base Plane Equation</a></li>
+	<li><a href="http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html#Step9" style="text-decoration:none;">Step 9: Measure Sandbox's 3D Box Corner Positions</a></li>
+	<li><a href="http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html#Step10" style="text-decoration:none;">Step 10: Align the Projector</a></li>
+	<li><a href="http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html#Step11" style="text-decoration:none;">Step 11: Projector/Camera Calibration</a></li>
+	</ul>
+<li><a href="http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html#Running" style="text-decoration:none;">Running the Augmented Reality Sandbox</a></li>
+	<ul>
+	<li><a href="http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html#Step12" style="text-decoration:none;">Step 12: Run the AR&nbsp;Sandbox</a></li>
+	</ul>
+<li><a href="http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html#Finetuning" style="text-decoration:none;">Post-Installation Setup and Fine-Tuning</a></li>
+	<ul>
+	<li><a href="http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html#Step13" style="text-decoration:none;">Step 13: Create Per-application Configuration File Directory</a></li>
+	<li><a href="http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html#Step14" style="text-decoration:none;">Step 14: Create Configuration File for CalibrateProjector</a></li>
+	<li><a href="http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html#Step15" style="text-decoration:none;">Step 15: Create Configuration File for SARndbox</a></li>
+	<li><a href="http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html#Step16" style="text-decoration:none;">Step 16: Create a Desktop Icon to Launch the AR&nbsp;Sandbox</a></li>
+	<li><a href="http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html#Step17" style="text-decoration:none;">Step 17: Launch the AR&nbsp;Sandbox on Login&nbsp;/ Boot</a></li>
+	<li><a href="http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html#Step18" style="text-decoration:none;">Step 18: Use Multiple Screens</a></li>
+	<li><a href="http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html#Step19" style="text-decoration:none;">Step 19: Show a Secondary View of the AR&nbsp;Sandbox</a></li>
+	</ul>
+</ul>
+
+<a name="SoftwareInstallation"><h3>Software Installation</h3></a>
+
+<p>Installation steps 1 to&nbsp;5 install Linux and the AR&nbsp;Sandbox software, including its underlying Vrui and Kinect packages. There is also a <a href="http://youtu.be/R0UyMeJ2pYc" target="_blank">full walk-through video</a> of these steps, and an <a href="http://doc-ok.org/?p=1739" target="_blank">illustrated step-by-step guide to installing Linux Mint 19 ("Tara")</a>. The video is for an older version of Linux Mint as well as older versions of the Vrui, Kinect, and AR&nbsp;Sandbox packages; in case of any (small) discrepancies between the video and these instructions, ignore the video and follow these instructions. The illustrated guide is current.</p>
+
+<a name="Step1"><h4>Step 1: Install Linux</h4></a>
+
+<p>Install the <a href="https://linuxmint.com/edition.php?id=263" target="_blank">64-bit version of Linux Mint 19.1 ("Tessa") with MATE desktop environment</a> on a blank desktop computer. <b>This needs to be a real computer; the AR&nbsp;Sandbox does not work from inside a virtual machine.</b></p>
+
+<p>If you plan to run the AR&nbsp;Sandbox as a <em>computational appliance</em>, i.e., a closed system with no Internet connection, keyboard, mouse, or monitor besides the projector, where the AR&nbsp;Sandbox application starts automatically when you power on the PC, you should prepare for this early on during installation of Linux. One of the installation steps is to create a user account on the new operating system. At that point, check the option to log into that account automatically, and do not assign a password. Then, after the installation is done, follow optional <a href="http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html#Step16">Step&nbsp;16</a> and <a href="http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html#Step17">Step&nbsp;17</a>.</p>
+
+<p>Here is an <a href="http://doc-ok.org/?p=1739" target="_blank">illustrated step-by-step guide to installing Linux Mint 19 ("Tara")</a> on a new computer, including the extra step to enable automatic login to use the AR&nbsp;Sandbox as a computational appliance. There should be no differences between Linux Mint 19 and Linux Mint 19.1.</p>
+
+<p>Step&nbsp;1 starts at <a href="https://youtu.be/R0UyMeJ2pYc?t=0m0s" target="_blank">0:00 in the walk-through video</a>.</p>
+
+<a name="Step2"><h4>Step 2: Install Nvidia Driver</h4></a>
+
+<p>Install vendor-supplied drivers for your Nvidia graphics card. Open the Control Center, select "Driver Manager," wait for the panel to show up and the list of available drivers to be populated, and then select the recommended Nvidia binary driver and press "Apply Changes." Then wait until the change is complete (might take a while), and reboot your computer when prompted. This process is described in detail in the <a href="http://doc-ok.org/?p=1739" target="_blank">illustrated step-by-step guide to installing Linux Mint 19 ("Tara")</a>.
+
+</p><p>Step&nbsp;2 starts at <a href="https://youtu.be/R0UyMeJ2pYc?t=13m30s" target="_blank">13:30 in the walk-through video</a>.</p>
+
+<p>After installing the driver and rebooting the computer, check that the driver is working correctly by opening a terminal window and entering precisely the following command (if in doubt, copy&amp;paste directly from this web page):
+</p><pre>glxinfo | grep vendor</pre>
+The terminal should reply with the following:
+<pre>server glx vendor string: NVIDIA Corporation
+client glx vendor string: NVIDIA Corporation
+OpenGL vendor string: NVIDIA Corporation</pre>
+If the reply is different, specifically, if it does not print "NVIDIA Corporation" in all three lines, something went wrong with driver installation. This issue needs to be corrected before continuing.<p></p>
+
+<a name="Step3"><h4>Step 3: Install the Vrui VR Development Toolkit</h4></a>
+
+<p>Open a terminal window and enter precisely the following commands (if in doubt, copy&amp;paste directly from this web page, one line at a time). <tt>~</tt> is shorthand for the user's home directory:
+</p><pre>cd ~
+wget http://idav.ucdavis.edu/~okreylos/ResDev/Vrui/Build-Ubuntu.sh
+bash Build-Ubuntu.sh</pre>
+<b>Protip:</b> The quickest way to copy&amp;paste in Linux is to highlight the text you want to copy with the left mouse button, then move the mouse to where you want to copy the selected text, and click the middle mouse button (usually the mouse wheel).<p></p>
+
+<p>The script run in the last command will ask you for your user's password to install prerequisite libraries, and then build the <a href="http://idav.ucdavis.edu/~okreylos/ResDev/Vrui" target="_blank">Vrui VR Toolkit</a>. That will take a little while and produce lots of output, and at the end you'll be greeted by a spinning globe in a window.</p>
+
+<p>This is a good opportunity to familiarize yourself with Vrui's basic user interface. Several utilities used in subsequent installation steps, and even the AR&nbsp;Sandbox itself, are Vrui applications. The UI is described in some detail in <a href="http://idav.ucdavis.edu/~okreylos/ResDev/Vrui/LinkDocumentation.html" target="_blank">Vrui's online documentation</a>, specifically the "Using Vrui Applications" page, but here are the most important bits:
+
+</p><ul>
+<li>Press (and hold) the right mouse button to pop up the main application menu. Then move the mouse to the "Rotate Earth" menu entry, and release the right mouse button. The globe should stop spinning.</li>
+
+<li>While pressing and holding the left mouse button, moving the mouse will rotate the 3D view in the window around the window center.</li>
+
+<li>To "pan," i.e., to move the globe left/right/up/down in the window, press and hold the "z" key on the keyboard, and move the mouse (without pressing any mouse buttons) left/right/up/down. Using keyboard keys as extra mouse buttons in this way is a common approach in Vrui applications.</li>
+
+<li>To "scale," i.e., to grow or shrink the globe in the window, press and hold both the "z" key and the left mouse button, and move the mouse up/down.</li>
+
+<li>Should you ever get lost, i.e., nothing shows up in the window and you don't know how to get the contents back, you can reset the view to the default by either (1)&nbsp;selecting "Reset View" from the "View" sub-menu of the "Vrui System" sub-menu, or (2)&nbsp; by pressing "Win+Home," i.e., holding the "Windows" key, and then pressing the "Home" key.</li>
+
+<li>Now press and hold some keyboard key, let's say "1." There is no function currently assigned to that key, thus, Vrui will pop up the tool selection menu, showing many different functions that can be dynamically assigned to it. Move the mouse (without pressing any other keys or buttons) to open the "Utility" sub-menu, then move to the "Curve Editor" entry, and let go of the "1" key. This will assign a Curve Editor tool to the key, and pop open the Curve Editor's control dialog. You can move the dialog by grabbing its blue title bar with the left mouse button, and dragging it with the mouse. You can also use the left mouse button to interact with the dialog, e.g., drag the "Line Width" slider, or select different colors. To draw curves, move the mouse back into the main window, press and hold "1," and move the mouse. Dynamically assigning functions to mouse buttons or keyboard keys is a very common operation in Vrui applications. To delete the Curve Editor tool, move the mouse into the "tool trash can," the red rectangle in the lower-left window corner, and press and release the "1" key.</li>
+</ul>
+
+When you are done exploring, close the globe window and go back to the same terminal window as before to continue.<p></p>
+
+<p>Once the spinning globe appeared, you can delete the Vrui installation script by running in the same terminal window:
+</p><pre>rm ~/Build-Ubuntu.sh</pre><p></p>
+
+<p>Step&nbsp;3 starts at <a href="https://youtu.be/R0UyMeJ2pYc?t=20m40s" target="_blank">20:40 in the walk-through video</a>.</p>
+
+<a name="Step3a"><h4>Step 3a: Adjusting the Screen Size</h4></a>
+
+<p>While inside the spinning globe application that was started at the end of <a href="http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html#Step3">Step 3</a>, open the application's main menu by pressing and holding the right mouse button, and check the text size of the menu items. Is the menu readable? Is the text tiny or gigantic?</p>
+
+<p>A potential issue is that the Vrui toolkit tries to create a calibrated display, meaning that if an application draws a 5" line, that line should appear on the screen exactly 5" long. This feature relies on a connected display reporting its correct size to the operating system. While that works for most computer monitors, it does not work for projectors&nbsp; -- a projector does not know its display size, as that depends on throw distance and zoom factor. As a result, projectors often report no or wildly inaccurate display sizes, and Vrui messes up by taking those at face value. In short, Vrui's automatic screen size feature might have to be disabled to work in an AR&nbsp;Sandbox context.</p>
+
+<p>The best way to disable this feature for all Vrui applications is to edit Vrui's central configuration file, <tt>/usr/local/etc/Vrui-4.6/Vrui.cfg</tt>, with the <tt>xed</tt> text editor. In a terminal window, run:
+</p><pre>sudo xed /usr/local/etc/Vrui-4.6/Vrui.cfg</pre>
+and enter your password if asked to do so. Then find the <tt>autoScreenSize true</tt> setting inside <tt>section Window</tt> inside <tt>section Desktop</tt>. In Vrui-4.6-005's configuration file, that is in line&nbsp;154. Then change the value of <tt>autoScreenSize</tt> from <tt>true</tt> to <tt>false</tt>.<p></p>
+
+<p>With <tt>autoScreenSize</tt> turned off, Vrui will fall back to the screen size configured in <tt>section Screen</tt>, in lines 105-112 in the same configuration file. The default values in there, defining a 20" 4:3 aspect ratio monitor, should work well enough. If your projector has a different aspect ratio, say 16:9, you might want to change the size values to reflect that, otherwise the image will appear squashed. First, change the <tt>width</tt> and <tt>height</tt> settings to appropriate values, and then adjust the <tt>origin</tt> setting such that the center of the screen is at position <tt>(0.0, 0.0, 0.0)</tt>. For example, if you set <tt>width</tt> to <tt>20.92</tt> and <tt>height</tt> to <tt>11.77</tt>, for a 24" diagonal 16:9 monitor, you would set <tt>origin</tt> to <tt>(-10.46, 0.0, -5.885)</tt>. When you are done with your changes, save the file and quit the text editor.</p>
+
+<p>If you have already adjusted the screen size, but still want to fine-tune the size of displayed texts, you can do so by directly changing the font size in the same configuration file. Towards the top of the file, underneath <tt>section Desktop</tt>, find the <tt>uiSize</tt>, <tt>uiFontTextHeight</tt>, and <tt>uiSliderWidth</tt> settings. First, entirely remove the lines containing <tt>uiSize</tt> and <tt>uiSliderWidth</tt>, and then change the value of <tt>uiFontTextHeight</tt> as desired. Text height is defined in the same unit of measurement as every other position or size in the configuration; by default, that is in inches. When done, save the file and quit the text editor.</p>
+
+<a name="Step4"><h4>Step 4: Install the Kinect 3D Video Package</h4></a>
+
+<p>To install the <a href="http://idav.ucdavis.edu/~okreylos/ResDev/Kinect" target="_blank">Kinect 3D Video Package</a>, run in the same terminal window:
+</p><pre>cd ~/src
+wget http://idav.ucdavis.edu/~okreylos/ResDev/Kinect/Kinect-3.7.tar.gz
+tar xfz Kinect-3.7.tar.gz
+cd Kinect-3.7
+make
+sudo make install
+sudo make installudevrules
+ls /usr/local/bin</pre>
+The sixth command might ask you to enter your password one more time; if so, enter it to continue. Check that the list of names printed by the last command contains <tt>KinectUtil</tt> and <tt>RawKinectViewer</tt>.<p></p>
+
+<p>Step&nbsp;4 starts at <a href="https://youtu.be/R0UyMeJ2pYc?t=25m48s" target="_blank">25:48 in the walk-through video</a>.</p>
+
+<a name="Step5"><h4>Step 5: Install the Augmented Reality Sandbox</h4></a>
+
+<p>To install the <a href="http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox" target="_blank">Augmented Reality Sandbox</a> software itself, run in the same terminal window:
+</p><pre>cd ~/src
+wget http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/SARndbox-2.6.tar.gz
+tar xfz SARndbox-2.6.tar.gz
+cd SARndbox-2.6
+make
+ls ./bin</pre>
+Check that the list of names printed by the last command contains <tt>CalibrateProjector</tt> and <tt>SARndbox</tt>. The AR&nbsp;Sandbox calibration utility and main application are now in <tt>~/src/SARndbox-2.6/bin</tt>.<p></p>
+
+<p>Step&nbsp;5 starts at <a href="https://youtu.be/R0UyMeJ2pYc?t=27m39s" target="_blank">27:39 in the walk-through video</a>.</p>
+
+<a name="Configuration"><h3>System Integration, Configuration, and Calibration</h3></a>
+
+<p>Installation steps 6 to&nbsp;11 connect the additional system components, i.e., the 3D camera (Kinect or other camera) and the digital projector, physically align them with the sandbox for optimal image quality, and calibrate the camera with respect to the projector so that real and projected features in the sandbox line up precisely.</p>
+
+<a name="Step6"><h4>Step 6: Connect and Configure the 3D Camera</h4></a>
+
+<p>Plug in your 3D camera and download intrinsic calibration parameters directly from its firmware. In a terminal window, run:
+</p><pre>sudo /usr/local/bin/KinectUtil getCalib 0</pre>
+This might ask you for your password again; if so, enter it to continue.<p></p>
+
+<p>Step&nbsp;6 starts at <a href="https://youtu.be/R0UyMeJ2pYc?t=28m52s" target="_blank">28:52 in the walk-through video</a>.</p>
+
+<a name="Step6a"><h4>Step 6a (Optional): Calculate Per-pixel Depth Correction</h4></a>
+
+<p>First-generation Kinect cameras (Kinect-for-Xbox-360) have a certain amount of non-linear depth distortion. If you point such a camera at a flat surface, the 3D reconstruction will not be flat, but slightly bowl-shaped. This distortion can prevent getting a good alignment between the physical sand surface and the topographic map projection in <a href="http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html#Step10">Step&nbsp;10</a>.</p>
+
+<p><tt>RawKinectViewer</tt> has a built-in calibration utility to correct for this distortion. This step is not necessary for operation of the AR&nbsp;Sandbox, but it usually improves alignment quality. Again, this issue only applies to first-generation Kinect cameras (models 1414, 1473, and 1517). It is easiest to perform this calibration step with the Kinect camera removed from the AR&nbsp;Sandbox, so if your Kinect is difficult to remove after assembly, it might be a good idea to do this step before putting it in place.</p>
+
+<p>To perform per-pixel depth correction, place your Kinect camera such that it faces a large flat non-shiny surface, like an empty wall. Then start <tt>RawKinectViewer</tt> as administrator, as it will need to write a calibration file to the system location <tt>/usr/local/etc/Vrui-4.6/Kinect-3.7</tt>. In a terminal window, run:
+</p><pre>sudo /usr/local/bin/RawKinectViewer -compress 0</pre>
+and enter your password if/when asked.<p></p>
+
+<p>To begin calibration, move your camera towards the flat surface until black blotches start appearing in the depth image stream on the left side of <tt>RawKinectViewer</tt>'s display window, and then pull back until there are only small and isolated black spots. It is best to have the camera face the flat surface head-on; rotate the camera left/right and up/down until the displayed depth color is uniform between the left, right, top, and bottom edges.</p>
+
+<p>Next, assign a calibration tool to two arbitrary keys. Press the first key, say "A", and move the mouse to highlight "Calibrate Depth Lens" in the tool selection menu that pops up, then release the key. This will close the tool selection menu and open a "Creating Calibrate Depth Lens Tool..." dialog prompting you to press another key for tool function "Calibrate." Pick a key, say "S", press and release it. This will close the dialog, and finish tool assignment.</p>
+
+<p>To capture a calibration tie point, keep the camera very still and press the "A" key once. This will show a "Capturing average depth frame..." message. Do <em>not</em> touch or move the camera while this message is being displayed. After it disappears a few seconds later, move the camera a little distance further away from the flat surface, and press "A" again to capture the next tie point.</p>
+
+<p>Repeat this process a few times to collect anywhere between five and ten tie points, from distances between about 0.5m and 1.5m. Once done, press the "S" key. This will calculate per-pixel depth correction factors and write them to a calibration file in the <tt>/usr/local/etc/Vrui-4.6/Kinect-3.7</tt> directory. <tt>RawKinectViewer</tt> will print "Writing depth correction file /usr/local/etc/Vrui-4.6/Kinect-3.7/DepthCorrection-&lt;camera serial number&gt;.dat" when it is finished. If any error messages appear at this point, close <tt>RawKinectViewer</tt> and redo the entire process. Otherwise, close <tt>RawKinectViewer</tt>, install the camera in the AR&nbsp;Sandbox, and continue with the next installation step.</p>
+
+<a name="Step7"><h4>Step 7: Align the 3D Camera</h4></a>
+
+<p>Align your camera so that its field of view covers the interior of your sandbox. Use <tt>RawKinectViewer</tt> to guide you during alignment. To start it, run in a terminal window:
+</p><pre>cd ~/src/SARndbox-2.6
+RawKinectViewer -compress 0</pre>
+Ignore the color video stream on the right side of <tt>RawKinectViewer</tt>'s display window and focus on the depth image stream on the left (the AR&nbsp;Sandbox does not use the color video stream). Move and/or rotate the camera until it can see the entire interior of your sandbox.<p></p>
+
+<a name="Step8"><h4>Step 8: Measure Sandbox's Base Plane Equation</h4></a>
+
+<p>Calculate your sandbox's base plane, by following the instructions in the <a href="https://youtu.be/EW2PtRsQQr0?t=0m0s" target="_empty">AR&nbsp;Sandbox calibration video, starting at 0:00</a>. You can use the already-running instance of <tt>RawKinectViewer</tt> from <a href="http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html#Step7">Step&nbsp;7</a>.</p>
+
+<p>To recap, you need to bind an "Extract Planes" tool from the root tool menu to some unused mouse button or keyboard key (see <a href="http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html#Step3">Step&nbsp;3</a> for details), then select "Average Frames" from <tt>RawKinectViewer</tt>'s main menu, wait for the depth image display to freeze, and then draw a rectangle on the depth image by pressing and holding the button/key to which you assigned the "Extract Planes" tool. This will print the plane equation best fitting the selected rectangle to the terminal window from which you ran <tt>RawKinectViewer</tt>. After extracting the base plane, you should turn "Average Frames" back off in <tt>RawKinectViewer</tt>'s main menu.</p>
+
+<p>You need to enter the base plane equation (and the 3D sand surface extents in the next step) into the <tt>BoxLayout.txt</tt> file in <tt>etc/SARndbox-2.6</tt> inside the <tt>SARndbox</tt> source directory. To edit the file using <tt>xed</tt>, run in a terminal window:
+</p><pre>cd ~/src/SARndbox-2.6
+xed etc/SARndbox-2.6/BoxLayout.txt &amp;</pre>
+The ampersand ("&amp;") at the end of the second command will keep the terminal window usable while the text editor is running. Now enter the base plane equation as described in the video. To copy text from a terminal window, highlight the desired text with the mouse, and then either right-click into the terminal window and select "Copy" from the pop-up menu that appears, or press Shift-Ctrl-c. To paste into the text editor, use the "Edit" menu, or press Ctrl-v. Or, highlight the desired text in the terminal window with the mouse, and then move the mouse into the desired position in the text editor window and press the middle mouse button to copy and paste.<p></p>
+
+<p><tt>RawKinectViewer</tt> prints two plane equations when a depth plane is extracted: the first in depth space, the second in camera space. The AR&nbsp;Sandbox needs the second, camera-space, plane equation. After copying it, the equation has to be reformatted slightly. <tt>RawKinectViewer</tt> will print:
+</p><pre>Camera-space plane equation: x * &lt;some vector&gt; = &lt;some offset&gt;</pre>
+where &lt;some vector&gt; is a three-component direction vector defining the "up" direction in camera coordinates, typically close to (0.0, 0.0, 1.0), and &lt;some offset&gt; is the vertical position of the measured plane underneath the camera, which is in centimeters and negative. <tt>BoxLayout.txt</tt> needs that plane equation in the following format:
+<pre>&lt;some vector&gt;, &lt;some offset&gt;</pre>
+where the direction vector and the offset are separated by a comma.<p></p>
+
+<p><b>Note:</b> For some reason, the depth plane equation reported by second-generation Kinect cameras (Kinect-for-Xbox-One) may be inverted. Before continuing, check that the fourth component (offset) of the camera-space plane equation is in fact negative. If it is not, flip the signs of <em>all four</em> components of the plane equation in <tt>BoxLayout.txt</tt>, e.g., <tt>(-0.01, 0.04, -0.9991), 105.3</tt> becomes <tt>(0.01, -0.04, 0.9991), -105.3</tt>.</p>
+
+<a name="Step9"><h4>Step 9: Measure Sandbox's 3D Box Corner Positions</h4></a>
+
+<p>Measure the 3D extents of the sand surface. As of version 3.2 of the Kinect package, this can be done inside <tt>RawKinectViewer</tt> as well by following the instructions in the <a href="https://youtu.be/EW2PtRsQQr0?t=4m10s" target="_empty">AR&nbsp;Sandbox calibration video, starting at 4:10</a>. Make sure to measure the box corners in the order lower-left, lower-right, upper-left, upper-right.</p>
+
+<p>To recap, you need to bind a "Measure 3D Positions" tool from the root tool menu to some unused mouse button or keyboard key (see <a href="http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html#Step3">Step&nbsp;3</a> for details), and then click on the corners of your sandbox in the depth image using the button/key to which you assigned the "Measure 3D Positions" tool. This will print a sequence of 3D&nbsp;positions to the terminal window from which you ran <tt>RawKinectViewer</tt>.</p>
+
+<p>After you have copied the box corner positions into the text editor as described in the video, save the file (via the "File" menu or by pressing Ctrl-s), and quit from the text editor (via the "File" menu or by pressing Ctrl-q or by closing the window).</p>
+
+<p>After Steps 8 and&nbsp;9 have been completed, the contents of <tt>BoxLayout.txt</tt> should look like the following, with different numbers depending on your installation:
+</p><pre>(-0.0076185, 0.0271708, 0.999602), -98.0000
+(  -48.6846899089,   -36.4482382583,   -94.8705084084)
+(   48.3653058763,   -34.3990483954,   -89.3884158982)
+(   -50.674914634,    35.8072086558,   -97.4082571497)
+(   48.7936140481,    36.4780970044,     -91.74159795)</pre>
+Ensure that this text starts in the first column of the first line, and that the file contains no other text at all.<p></p>
+
+<a name="Step10"><h4>Step 10: Align the Projector</h4></a>
+
+<p>Align your projector such that its image fills the interior of your sandbox. You can use the calibration grid drawn by Vrui's <tt>XBackground</tt> utility as a guide. In a terminal window, run:
+</p><pre>XBackground</pre>
+After the window showing the calibration grid appears, press F11 to toggle it into full-screen mode. Ensure that the window really covers the entire screen, i.e., that there are no title bar, desktop panel, or other decorations left. Press the "Esc" key to close <tt>XBackground</tt>'s window when you're done.<p></p>
+
+<p>Ensure to disable all digital image distortion features of your projector before alignment, and only use optical features, i.e., optical focus adjustment and optical zoom. Specifically, disable any kind of digital keystone correction, and check that the projector maps the incoming video signal 1:1 to its display pixels. The best way to check for 1:1 matching is to look at the central horizontal bar in <tt>XBackground</tt>'s test image. It should be a clear pattern of alternating white and black one-pixel-wide vertical lines with no smearing or stair steps.</p>
+
+<p>Slight overprojection outside of the sandbox, and any remaining keystone distortion of the projected image, will be taken care of by the following projector calibration step.</p>
+
+<a name="Step11"><h4>Step 11: Projector/Camera Calibration</h4></a>
+
+<p>Calibrate the Kinect camera and the projector with respect to each other by running the <tt>CalibrateProjector</tt> utility:
+</p><pre>cd ~/src/SARndbox-2.6
+./bin/CalibrateProjector -s &lt;width&gt; &lt;height&gt;</pre>
+where &lt;width&gt; and &lt;height&gt; are the width and height of your projector's image in pixels, respectively. For example, for an XGA projector like the recommended BenQ model, the command would be:
+<pre>./bin/CalibrateProjector -s 1024 768</pre>
+Ensure that the given image size exactly matches the size of the projector's input video signal.<p></p>
+
+<p><b>Very important:</b> Set <tt>CalibrateProjector</tt>'s window to full-screen mode by pressing F11 before proceeding. Then follow the instructions in the <a href="https://youtu.be/EW2PtRsQQr0?t=10m10s" target="_empty">AR&nbsp;Sandbox calibration video, starting at 10:10</a>.</p>
+
+<p>To recap, you need to bind a "Capture" tool from the root tool menu to <em>two</em> unused mouse buttons or keyboard keys to capture tie points. For example, to bind a "Capture" tool to the "1" and "2" keys, first press and hold "1." This will pop up the tool selection menu. While holding "1," move the mouse to highlight the "Capture" menu entry. Then let go of the "1" key. This will close the tool selection menu, and open a "Creating Capture Tool..." dialog prompting you to press another key for tool function "Capture Background." Now press and release the "2" key. This will close the dialog, and finish tool assignment. Afterwards, press and release "1" to capture a tie point and advance calibration, and press and release "2" to re-capture the background sand surface after you have made any changes to it, such as digging a hole to capture a low tie point.</p>
+
+<p>The calibration program expects a disk of diameter 120mm (4.7"), which is a standard CD, CD-ROM, or DVD. The easiest way to create a calibration disk is to glue a sheet of white paper to the data side of a CD/DVD/..., carefully cut around the edge of the CD, and draw a cross onto the paper that intersects exactly in the center of the CD's hole.</p>
+
+<p><b>Note:</b> Do not worry if the projected calibration image (yellow background, yellow or green disk) does not line up with the physical sandbox. This calibration step will <em>make</em> the image line up after it's done.</p>
+
+<a name="Running"><h3>Running the Augmented Reality Sandbox</h3></a>
+
+<p>At this point, the Augmented Reality Sandbox is configured, calibrated, and ready to run.</p>
+
+<a name="Step12"><h4>Step 12: Run the AR&nbsp;Sandbox</h4></a>
+
+<p>To run the main AR&nbsp;Sandbox application, run in a terminal window:
+</p><pre>cd ~/src/SARndbox-2.6
+./bin/SARndbox -uhm -fpv</pre>
+The <tt>-uhm</tt> argument tells the <tt>SARndbox</tt> application to apply an elevation color map to the sand surface, and the <tt>-fpv</tt> argument tells it to use the projector/camera calibration collected in <a href="http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html#Step11">Step&nbsp;11</a>.<p></p>
+
+<p><b>Very important:</b> Set <tt>SARndbox</tt>'s window to full-screen mode by pressing F11, or the projector/camera calibration will not line up.</p>
+
+<a name="Finetuning"><h3>Post-Installation Setup and Fine-Tuning</h3></a>
+
+<p>The instructions above get the AR&nbsp;Sandbox software installed and running, but there are still a lot of (optional) improvements to be made. The following steps automate full-screen display and tool bindings, configure multiple displays, etc.</p>
+
+<a name="Step13"><h4>Step 13: Create Per-application Configuration File Directory</h4></a>
+
+<p>The Vrui VR toolkit supports per-application configuration files, to set display or interaction options, or pre-bind regularly-used tools. These configuration files are stored in a directory <tt>~/.config/Vrui-&lt;version&gt;/Applications</tt>, and are given the same name as the application to which they belong, plus a <tt>.cfg</tt> extension. Create the configuration file directory by running in a terminal window:
+</p><pre>mkdir -p ~/.config/Vrui-4.6/Applications</pre><p></p>
+
+<a name="Step14"><h4>Step 14: Create Configuration File for CalibrateProjector</h4></a>
+
+<p>Create a configuration file for the <tt>CalibrateProjector</tt> application using the <tt>xed</tt> text editor:
+</p><pre>xed ~/.config/Vrui-4.6/Applications/CalibrateProjector.cfg</pre>
+Into that new file, paste exactly the following text:
+<pre>section Vrui
+    section Desktop
+        section Window
+            # Force the application's window to full-screen mode:
+            windowFullscreen true
+        endsection
+        
+        section Tools
+            section DefaultTools
+                # Bind a tie point capture tool to the "1" and "2" keys:
+                section CalibrationTool
+                    toolClass CaptureTool
+                    bindings ((Mouse, 1, 2))
+                endsection
+            endsection
+        endsection
+    endsection
+endsection</pre>
+then save the new file and exit from the text editor. (Reminder: You can copy&amp;paste the above text by highlighting the entire contents of the text box with the left mouse button, then moving the mouse over into the empty text editor window, and pressing the middle mouse button.)<p></p>
+
+<p>If you now start <tt>CalibrateProjector</tt>, its window will cover the entire screen, with no title bars or panels remaining. If you press the "1" key, the program will capture a calibration tie point, and if you press the "2" key, it will re-capture the background, indicated by the screen turning red for two seconds.</p>
+
+<p>You can replace the "1" and "2" key names in the "bindings" tag with any other keys you like.</p>
+
+<a name="Step15"><h4>Step 15: Create Configuration File for SARndbox</h4></a>
+
+<p>Create a configuration file for the <tt>SARndbox</tt> application using the <tt>xed</tt> text editor:
+</p><pre>xed ~/.config/Vrui-4.6/Applications/SARndbox.cfg</pre>
+Into that new file, paste exactly the following text:
+<pre>section Vrui
+    section Desktop
+        # Disable the screen saver:
+        inhibitScreenSaver true
+        
+        section MouseAdapter
+            # Hide the mouse cursor after 5 seconds of inactivity:
+            mouseIdleTimeout 5.0
+        endsection
+        
+        section Window
+            # Force the application's window to full-screen mode:
+            windowFullscreen true
+        endsection
+        
+        section Tools
+            section DefaultTools
+                # Bind a global rain/dry tool to the "1" and "2" keys:
+                section WaterTool
+                    toolClass GlobalWaterTool
+                    bindings ((Mouse, 1, 2))
+                endsection
+            endsection
+        endsection
+    endsection
+endsection</pre>
+then save the new file and exit from the text editor.<p></p>
+
+<p>As in <a href="http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html#Step14">Step&nbsp;14</a>, this will force <tt>SARndbox</tt> to start in full-screen mode, ensuring that the calibration created using <tt>CalibrateProjector</tt> exactly matches the one used in the actual AR&nbsp;Sandbox. In addition, the "inhibitScreenSaver" setting will prevent the screen from blanking if no keys are pressed, and the "mouseIdleTimeout 5.0" setting will hide the mouse cursor after five seconds of inactivity. To get the cursor back (for menu interactions etc.), simply move the mouse. Finally, the "WaterTool" section binds a tool to add or remove water to/from the entire AR&nbsp;Sandbox, by pressing "1" to rain, and "2" to drain. As previously, set the binding to whatever keys you prefer.</p>
+
+<a name="Step16"><h4>Step 16: Create a Desktop Icon to Launch the AR&nbsp;Sandbox</h4></a>
+
+<p>Starting the AR&nbsp;Sandbox may require typing a lengthy command line into a terminal window, which might get tedious. To simplify things, you can create a desktop icon to launch the AR&nbsp;Sandbox by simply double-clicking. This is best done in two steps: first, create a shell script to launch the <tt>SARndbox</tt> application with all command line arguments; second, link that shell script to a desktop icon.</p>
+
+<p>To create a shell script, run in a terminal window:
+</p><pre>xed ~/src/SARndbox-2.6/RunSARndbox.sh</pre>
+This will open an editor window with an empty file. Paste <em>exactly</em> the following contents into that file:
+<pre>#!/bin/bash
+
+# Enter SARndbox directory:
+cd ~/src/SARndbox-2.6
+
+# Run SARndbox with proper command line arguments:
+./bin/SARndbox -uhm -fpv</pre>
+Add any command line arguments you normally use to the last line. Then save the file, exit the text editor, and run in the same terminal:
+<pre>chmod a+x ~/src/SARndbox-2.6/RunSARndbox.sh</pre>
+This will tell the operating system that the shell script can be executed.<p></p>
+
+<p>To create a desktop icon, run in a terminal window:
+</p><pre>xed ~/Desktop/RunSARndbox.desktop</pre>
+Into the empty text file, paste the following contents:
+<pre>#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Icon=mate-panel-launcher
+Icon[en_US]=
+Name[en_US]=
+Exec=/home/&lt;username&gt;/src/SARndbox-2.6/RunSARndbox.sh
+Comment[en_US]=
+Name=Start the AR&nbsp;Sandbox
+Comment=</pre>
+Replace <tt>&lt;username&gt;</tt> with your actual user name, to locate the shell script created in the previous step. Then save the file, exit the text editor, and make the file executable:
+<pre>chmod a+x ~/Desktop/RunSARndbox.desktop</pre>
+Now, double-clicking the icon will start the AR&nbsp;Sandbox with all command line arguments.<p></p>
+
+<a name="Step17"><h4>Step 17: Launch the AR&nbsp;Sandbox on Login&nbsp;/ Boot</h4></a>
+
+<p>To run the AR&nbsp;Sandbox as a computational appliance that starts automatically when the PC is powered on, you need to create an auto-login account during Linux installation in <a href="http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html#Step1">Step&nbsp;1</a>, and create a shell script to run the <tt>SARndbox</tt> application as described in <a href="http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html#Step16">Step&nbsp;16</a>. Then you add that shell script to your user account's start-up list. Select the "Startup Applications" applet in the MATE Control Center, and click the "Add" button next to the list of "Additional startup programs." Into the dialog box that opens, enter a name (such as "Start AR&nbsp;Sandbox"), and into the Command field enter the full name of the shell script, i.e., <tt>/home/&lt;username&gt;/src/SARndbox-2.6/RunSARndbox.sh</tt>, where you replace &lt;username&gt; with your actual user name.</p>
+
+<p>The next time you log into your account, or the next time the PC powers up (if auto-login is enabled), the AR&nbsp;Sandbox will start automatically. To exit from the application, for example to run a new projector calibration or do other maintenance tasks, simply press the "Esc" key.</p>
+
+<a name="Step18"><h4>Step 18: Use Multiple Screens</h4></a>
+
+<p>If you are running an AR&nbsp;Sandbox from a laptop, or if your desktop computer has a main monitor in addition to the sandbox projector, you can tell <tt>CalibrateProjector</tt> and <tt>SARndbox</tt> to use the projector, and leave the main monitor for other purposes, such as starting scripts or displaying a secondary view of the virtual topographic map from arbitrary points of view. First, determine to which video output port the sandbox projector is connected. In a terminal window, run:
+</p><pre>xrandr | grep connected</pre>
+The <tt>xrandr</tt> utility will print a list of all video output ports that exist on the computer, and information about the monitors/projectors connected to those ports. An <tt>xrandr</tt> report might look like this:
+<pre>DVI-I-0 disconnected primary (normal left inverted right x axis y axis)
+DVI-I-1 connected 2560x1600+0+0 (normal left inverted right x axis y axis) 641mm x 401mm
+HDMI-0 disconnected (normal left inverted right x axis y axis)
+DP-0 disconnected (normal left inverted right x axis y axis)
+DVI-D-0 connected 1600x1200+2560+0 (normal left inverted right x axis y axis) 367mm x 275mm
+DP-1 disconnected (normal left inverted right x axis y axis)</pre>
+This report shows two connected monitors: One with 2560x1600 pixels connected to port <tt>DVI-I-1</tt>, and a secondary with 1600x1200 pixels and origin +2560+0, i.e., positioned to the right of the main monitor, connected to port <tt>DVI-D-0</tt>.<p></p>
+
+<p>From your <tt>xrandr</tt> report, determine the port name connected to your sandbox projector, for example by looking for the projector's pixel size, e.g., 1024x768. If your projector is connected via an HDMI cable, the port name will usually be something like <tt>HDMI-0</tt>. Then direct <tt>CalibrateProjector</tt> and <tt>SARndbox</tt> to open their display windows on that video output port by editing their respective configuration files:
+</p><pre>xed ~/.config/Vrui-4.6/Applications/CalibrateProjector.cfg</pre>
+and afterwards
+<pre>xed ~/.config/Vrui-4.6/Applications/SARndbox.cfg</pre>
+In both files, insert the following "outputName" setting into the existing "Window" section:
+<pre>        section Window
+            ...
+            # Open the window on a specific video output port:
+            outputName &lt;port name&gt;
+            ...
+        endsection</pre>
+where &lt;port name&gt; is replaced with the name of your projector's actual video output port from your <tt>xrandr</tt> report, e.g., <tt>HDMI-0</tt>.<p></p>
+
+<p>Afterwards, starting <tt>CalibrateProjector</tt> or <tt>SARndbox</tt> will send their display windows to the sandbox projector and full-screen them there. Check that there are no remaining window frames or panels etc.</p>
+
+<p>The <tt>xrandr</tt> utility can also be used to turn connected monitors/projectors on or off. For example, let's say that your main monitor is connected to port <tt>DVI-I-1</tt>, and your projector to port <tt>HDMI-0</tt>. Then you can turn on the projector, and place it to the right of your main monitor, by running:
+</p><pre>xrandr --output DVI-I-1 --auto --primary --output HDMI-0 --auto --right-of DVI-I-1</pre>
+To turn the projector off again, run:
+<pre>xrandr --output DVI-I-1 --auto --primary --output HDMI-0 --off</pre><p></p>
+
+<a name="Step19"><h4>Step 19: Show a Secondary View of the AR&nbsp;Sandbox</h4></a>
+
+<p>If you have multiple displays connected to the PC running your AR&nbsp;Sandbox, and have done the multi-screen setup in <a href="http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html#Step18">Step&nbsp;18</a>, then you can show a second display window that does not just replicate the projected view shown in the sandbox itself, but that can show the captured 3D&nbsp;topography from arbitrary points of view, in full 3D, as explained in <a href="https://www.youtube.com/watch?v=NXD7Dfo7Ngo" target="_blank">this video</a>.</p>
+
+<p>To create a secondary view, you first need to edit the <tt>SARndbox</tt> application's configuration file and instruct it to open a second window on a different display. Run in a terminal window:
+</p><pre>xed ~/.config/Vrui-4.6/Applications/SARndbox.cfg</pre>
+At the beginning of the "Desktop" section, insert the following setting:
+<pre>section Vrui
+    section Desktop
+        # Open a second window:
+        windowNames += (Window2)
+        ...
+    endsection
+endsection</pre>
+Then, after the existing "Window" section, insert a new section "Window2" with the following settings:
+<pre>section Vrui
+    section Desktop
+        ...
+        section Window
+            ...
+        endsection
+        
+        section Window2
+            viewerName Viewer
+            screenName Screen
+            windowType Mono
+            
+            # Open the window on a specific video output port:
+            outputName &lt;port name&gt;
+            
+            # Open the window to full-screen mode:
+            windowSize (800, 600)
+            windowFullscreen true
+        endsection
+        ...
+    endsection
+endsection</pre>
+where &lt;port name&gt; is replaced with the name of the actual video output port to which your non-sandbox display is connected, as gathered from your <tt>xrandr</tt> report in <a href="http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html#Step18">Step&nbsp;18</a>.<p></p>
+
+<p>After the above changes, <tt>SARndbox</tt> will open a second window on the secondary display, but it will still show the same fixed projector view as the main projector, possibly squished due to a different aspect ratio on the secondary display. To allow an independent view on the secondary display, you have to modify <tt>SARndbox</tt>'s command line. The best way to do this is to edit the <tt>RunSARndbox.sh</tt> shell script you created in <a href="http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html#Step16">Step&nbsp;16</a>. In a terminal window, run:
+</p><pre>xed ~/src/SARndbox-2.6/RunSARndbox.sh</pre>
+The simple command line entered in <a href="http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html#Step16">Step&nbsp;16</a> only has two arguments:
+<pre>./bin/SARndbox -uhm -fpv</pre>
+These instruct <tt>SARndbox</tt>, in order, to apply the default elevation color map, and to lock the display to the projector calibration matrix captured in <a href="http://idav.ucdavis.edu/~okreylos/ResDev/SARndbox/SoftwareInstallation.html#Step11">Step&nbsp;11</a>. By default, <tt>SARndbox</tt> applies display options from the command line to all windows it opens, but this can be overridden by using a <tt>-wi &lt;window index&gt;</tt> argument, where &lt;window index&gt; is the zero-based index of a window. After seeing that argument, <tt>SARndbox</tt> will apply all following display options to all windows with the same or a larger index, and also reset the <tt>-fpv</tt> option. Thus, append the following to <tt>SARndbox</tt>'s command line:
+<pre>./bin/SARndbox -uhm -fpv -wi 1 -rws</pre>
+The (optional) <tt>-rws</tt> argument will draw water as a three-dimensional surface instead of applying it to the topography as a texture, as is the default setting. This will create a better representation of water flow when seen from oblique angles.<p></p>
+
+<p>After these changes, the AR&nbsp;Sandbox will show a navigable three-dimensional view of the 3D topography model, including water drawn as a real 3D surface, on the secondary display. The secondary display can be rotated, translated, and scaled as in many other 3D graphics software, using a combination of mouse buttons and keyboard keys. Most importantly, pressing the left mouse button will rotate the view around the center of the window, and pressing the "Z" key while moving the mouse will translate the view in the window's plane. Pressing the left mouse button and "Z" key together, while moving the mouse up and down, will scale the view (zoom in or out), as will rolling the mouse wheel. Finally, pressing the left mouse button, the "Z" key, and the left Shift key, while moving the mouse up or down, will "dolly" the view in or out of the window's plane, as will rolling the mouse wheel while pressing the left Shift key.</p>
+
+<p>On start-up, <tt>SARndbox</tt> will show a default view of the 3D topography in its secondary window. If you would like to show a different view on start-up, you can use the navigation techniques described in the previous paragraph to create the perfect view that you want, and then save it. To do this, press and hold the right mouse button to show the main application menu. Move the mouse to the last entry, "Vrui System", and from there to the "View" sub-menu, then to the "Save View..." entry, and there release the right mouse button. This will open a file selection dialog where you can specify a file name and location for the view file about to be written. Leave the default file name ("SavedViewpoint0001.view") and default location (the AR&nbsp;Sandbox's project directory) alone, and press the "OK" button. This will close the file selection dialog and save the current view to the selected file.</p>
+
+<p>After exiting from <tt>SARndbox</tt>, change the command line in the <tt>RunSARndbox.sh</tt> shell script again, this time appending a command to load the view file you just saved. Run in a terminal:
+</p><pre>xed ~/src/SARndbox-2.6/RunSARndbox.sh</pre>
+and change the command line to:
+<pre>./bin/SARndbox -uhm -fpv -wi 1 -rws -loadView SavedViewpoint0001.view</pre>
+If you changed the name of the view file before saving it (or renamed it later), use the correct name here. Afterwards, the AR&nbsp;Sandbox will start up with your preferred view displayed in its secondary window.<p></p>
+
+
+
+</div></body></html>

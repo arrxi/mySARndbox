@@ -1,0 +1,35 @@
+$(OBJDIR)/Vrui/Internal/TheoraMovieSaver.o: \
+ Vrui/Internal/TheoraMovieSaver.cpp  \
+ /home/xuang/src/Vrui-4.6-005/Vrui/Internal/TheoraMovieSaver.h \
+ /home/xuang/src/Vrui-4.6-005/Threads/MutexCond.h  \
+ /home/xuang/src/Vrui-4.6-005/Misc/Time.h  \
+ /home/xuang/src/Vrui-4.6-005/Threads/Config.h \
+ /home/xuang/src/Vrui-4.6-005/Threads/Thread.h \
+ /home/xuang/src/Vrui-4.6-005/IO/File.h  \
+ /home/xuang/src/Vrui-4.6-005/Misc/Endianness.h \
+ /home/xuang/src/Vrui-4.6-005/Misc/Autopointer.h \
+ /home/xuang/src/Vrui-4.6-005/Threads/RefCounted.h \
+ /home/xuang/src/Vrui-4.6-005/Threads/Atomic.h \
+ /home/xuang/src/Vrui-4.6-005/Video/OggStream.h  \
+  /home/xuang/src/Vrui-4.6-005/Video/TheoraFrame.h \
+ /home/xuang/src/Vrui-4.6-005/Video/TheoraEncoder.h \
+ /home/xuang/src/Vrui-4.6-005/Video/TheoraPacket.h \
+ /home/xuang/src/Vrui-4.6-005/Vrui/Internal/MovieSaver.h \
+ /home/xuang/src/Vrui-4.6-005/Threads/TripleBuffer.h \
+ /home/xuang/src/Vrui-4.6-005/Misc/SizedTypes.h \
+ /home/xuang/src/Vrui-4.6-005/Misc/ThrowStdErr.h \
+ /home/xuang/src/Vrui-4.6-005/Misc/StandardValueCoders.h \
+ /home/xuang/src/Vrui-4.6-005/Misc/ValueCoder.h \
+ /home/xuang/src/Vrui-4.6-005/Misc/ConfigurationFile.h \
+ /home/xuang/src/Vrui-4.6-005/Misc/ConfigurationFile.icpp \
+ /home/xuang/src/Vrui-4.6-005/Misc/StringMarshaller.h \
+ /home/xuang/src/Vrui-4.6-005/IO/OpenFile.h \
+ /home/xuang/src/Vrui-4.6-005/IO/SeekableFile.h \
+ /home/xuang/src/Vrui-4.6-005/IO/Directory.h \
+ /home/xuang/src/Vrui-4.6-005/Misc/FileTests.h \
+ /home/xuang/src/Vrui-4.6-005/Video/FrameBuffer.h \
+ /home/xuang/src/Vrui-4.6-005/Video/ImageExtractorRGB8.h \
+ /home/xuang/src/Vrui-4.6-005/Video/ImageExtractor.h \
+ /home/xuang/src/Vrui-4.6-005/Video/OggPage.h \
+ /home/xuang/src/Vrui-4.6-005/Video/TheoraInfo.h \
+ /home/xuang/src/Vrui-4.6-005/Video/TheoraComment.h

@@ -1,0 +1,13 @@
+$(OBJDIR)/Vrui/Internal/VRDevicePipe.o: \
+ Vrui/Internal/VRDevicePipe.cpp  \
+ /home/xuang/src/Vrui-4.6-005/Vrui/Internal/VRDevicePipe.h \
+ /home/xuang/src/Vrui-4.6-005/Misc/SizedTypes.h \
+ /home/xuang/src/Vrui-4.6-005/Comm/TCPPipe.h \
+ /home/xuang/src/Vrui-4.6-005/Comm/NetPipe.h  \
+ /home/xuang/src/Vrui-4.6-005/Comm/Pipe.h \
+ /home/xuang/src/Vrui-4.6-005/Misc/Autopointer.h \
+ /home/xuang/src/Vrui-4.6-005/IO/File.h  \
+ /home/xuang/src/Vrui-4.6-005/Misc/Endianness.h \
+ /home/xuang/src/Vrui-4.6-005/Threads/RefCounted.h \
+ /home/xuang/src/Vrui-4.6-005/Threads/Atomic.h \
+ /home/xuang/src/Vrui-4.6-005/Threads/Config.h

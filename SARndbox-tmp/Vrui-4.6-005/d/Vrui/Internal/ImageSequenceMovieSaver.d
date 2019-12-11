@@ -1,0 +1,25 @@
+$(OBJDIR)/Vrui/Internal/ImageSequenceMovieSaver.o: \
+ Vrui/Internal/ImageSequenceMovieSaver.cpp  \
+ /home/xuang/src/Vrui-4.6-005/Vrui/Internal/ImageSequenceMovieSaver.h \
+ /home/xuang/src/Vrui-4.6-005/Threads/MutexCond.h \
+ /home/xuang/src/Vrui-4.6-005/Misc/Time.h  \
+ /home/xuang/src/Vrui-4.6-005/Threads/Config.h \
+ /home/xuang/src/Vrui-4.6-005/Threads/Thread.h \
+ /home/xuang/src/Vrui-4.6-005/Vrui/Internal/MovieSaver.h \
+ /home/xuang/src/Vrui-4.6-005/Threads/TripleBuffer.h \
+ /home/xuang/src/Vrui-4.6-005/Misc/SizedTypes.h \
+ /home/xuang/src/Vrui-4.6-005/Threads/Atomic.h  \
+ /home/xuang/src/Vrui-4.6-005/Misc/PrintfTemplateTests.h \
+ /home/xuang/src/Vrui-4.6-005/Misc/ThrowStdErr.h \
+ /home/xuang/src/Vrui-4.6-005/Misc/StandardValueCoders.h \
+ /home/xuang/src/Vrui-4.6-005/Misc/ValueCoder.h \
+ /home/xuang/src/Vrui-4.6-005/Misc/ConfigurationFile.h \
+ /home/xuang/src/Vrui-4.6-005/Misc/ConfigurationFile.icpp \
+ /home/xuang/src/Vrui-4.6-005/Misc/StringMarshaller.h \
+ /home/xuang/src/Vrui-4.6-005/Images/WriteImageFile.h \
+ /home/xuang/src/Vrui-4.6-005/Images/RGBImage.h  \
+  /home/xuang/src/Vrui-4.6-005/Images/Image.h \
+ /home/xuang/src/Vrui-4.6-005/GL/GLScalarLimits.h \
+ /home/xuang/src/Vrui-4.6-005/Math/Math.h  \
+ /home/xuang/src/Vrui-4.6-005/GL/GLColor.h \
+ /home/xuang/src/Vrui-4.6-005/Images/BaseImage.h

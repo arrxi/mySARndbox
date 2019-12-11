@@ -1,0 +1,24 @@
+$(OBJDIR)/VRDeviceDaemon/VRDevices/Wiimote.o: \
+ VRDeviceDaemon/VRDevices/Wiimote.cpp  \
+ /home/xuang/src/Vrui-4.6-005/VRDeviceDaemon/VRDevices/Wiimote.h \
+ /home/xuang/src/Vrui-4.6-005/Misc/CallbackData.h \
+ /home/xuang/src/Vrui-4.6-005/Misc/CallbackList.h \
+ /home/xuang/src/Vrui-4.6-005/Threads/Mutex.h  \
+ /home/xuang/src/Vrui-4.6-005/Threads/Config.h \
+ /home/xuang/src/Vrui-4.6-005/Threads/Cond.h \
+ /home/xuang/src/Vrui-4.6-005/Misc/Time.h  \
+ /home/xuang/src/Vrui-4.6-005/Threads/MutexCond.h \
+ /home/xuang/src/Vrui-4.6-005/Threads/Thread.h \
+ /home/xuang/src/Vrui-4.6-005/Math/BrokenLine.h \
+ /home/xuang/src/Vrui-4.6-005/Math/Math.h  \
+ /home/xuang/src/Vrui-4.6-005/Geometry/Vector.h \
+ /home/xuang/src/Vrui-4.6-005/Geometry/ComponentArray.h \
+ /home/xuang/src/Vrui-4.6-005/Misc/ThrowStdErr.h \
+ /home/xuang/src/Vrui-4.6-005/Misc/StandardValueCoders.h \
+ /home/xuang/src/Vrui-4.6-005/Misc/ValueCoder.h \
+ /home/xuang/src/Vrui-4.6-005/Misc/CompoundValueCoders.h \
+ /home/xuang/src/Vrui-4.6-005/Misc/CompoundValueCoders.icpp \
+ /home/xuang/src/Vrui-4.6-005/Misc/ConfigurationFile.h \
+ /home/xuang/src/Vrui-4.6-005/Misc/ConfigurationFile.icpp \
+ /home/xuang/src/Vrui-4.6-005/Misc/StringMarshaller.h \
+ /home/xuang/src/Vrui-4.6-005/Math/MathValueCoders.h

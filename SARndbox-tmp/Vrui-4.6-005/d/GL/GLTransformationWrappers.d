@@ -1,0 +1,28 @@
+$(OBJDIR)/GL/GLTransformationWrappers.o: \
+ GL/GLTransformationWrappers.cpp  \
+ /home/xuang/src/Vrui-4.6-005/GL/GLTransformationWrappers.icpp \
+ /home/xuang/src/Vrui-4.6-005/GL/GLTransformationWrappers.h \
+ /home/xuang/src/Vrui-4.6-005/GL/GLMatrixEnums.h \
+ /home/xuang/src/Vrui-4.6-005/Math/Math.h  \
+ /home/xuang/src/Vrui-4.6-005/Geometry/TranslationTransformation.h \
+ /home/xuang/src/Vrui-4.6-005/Geometry/Vector.h \
+ /home/xuang/src/Vrui-4.6-005/Geometry/ComponentArray.h \
+ /home/xuang/src/Vrui-4.6-005/Geometry/Point.h \
+ /home/xuang/src/Vrui-4.6-005/Geometry/HVector.h \
+ /home/xuang/src/Vrui-4.6-005/Geometry/RotationTransformation.h \
+ /home/xuang/src/Vrui-4.6-005/Geometry/Rotation.h \
+ /home/xuang/src/Vrui-4.6-005/Geometry/OrthonormalTransformation.h \
+ /home/xuang/src/Vrui-4.6-005/Geometry/Matrix.h \
+ /home/xuang/src/Vrui-4.6-005/Geometry/UniformScalingTransformation.h \
+ /home/xuang/src/Vrui-4.6-005/Geometry/OrthogonalTransformation.h \
+ /home/xuang/src/Vrui-4.6-005/Geometry/ScalingTransformation.h \
+ /home/xuang/src/Vrui-4.6-005/Geometry/AffineTransformation.h \
+ /home/xuang/src/Vrui-4.6-005/Geometry/ProjectiveTransformation.h \
+ /home/xuang/src/Vrui-4.6-005/GL/GLMatrixTemplates.h \
+ /home/xuang/src/Vrui-4.6-005/GL/GLVector.h \
+ /home/xuang/src/Vrui-4.6-005/GL/GLGetMatrixTemplates.h \
+ /home/xuang/src/Vrui-4.6-005/GL/GLGetTemplates.h \
+ /home/xuang/src/Vrui-4.6-005/GL/Extensions/GLARBShaderObjects.h \
+ /home/xuang/src/Vrui-4.6-005/GL/TLSHelper.h \
+ /home/xuang/src/Vrui-4.6-005/GL/Config.h \
+ /home/xuang/src/Vrui-4.6-005/GL/Extensions/GLExtension.h
